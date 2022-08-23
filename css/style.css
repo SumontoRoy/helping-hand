@@ -9,19 +9,23 @@ h1 {
 p {
     font-family: 'Poppins', sans-serif;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.text-heading{
+
+.text-heading {
     font-size: 45px;
     font-weight: 700;
     color: #121212;
     margin-top: 0px;
 }
-.custom-content{
+
+.custom-content {
     width: 700px;
     margin: auto;
 }
+
 /* banner part start */
 #banner-part {
     text-align: center;
@@ -30,10 +34,12 @@ a{
     background-size: cover;
     padding: 175px 305px;
 }
+
 #banner-part h1 {
     color: #ffffff;
     font-size: 65px;
     font-weight: 700;
+    text-shadow: 1px 1px 10px black;
 }
 
 #banner-part p {
@@ -41,8 +47,10 @@ a{
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 50px;
+    text-shadow: 1px 1px 8px black;
 }
-.button{
+
+.button {
     padding: 12px 16px;
     background-color: #FF5959;
     color: #ffffff;
@@ -51,19 +59,22 @@ a{
     font-weight: 400;
     border-radius: 5px;
 }
+
 /* banner part end */
 
 /* donate part start */
-#donate-part{
+#donate-part {
     text-align: center;
     padding: 100px 330px;
 }
-.amount{
+
+.amount {
     display: flex;
     justify-content: center;
     margin: 45px 0px;
 }
-.amount-item{
+
+.amount-item {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 30px;
@@ -72,18 +83,22 @@ a{
     margin: 0px 11px;
     border-radius: 5px;
 }
-#amount-focused{
+
+#amount-focused {
     border: 2px solid #FF5959;
     background: #FFEEEE;
     color: #FF5959;
 }
-#donate-part p{
+
+#donate-part p {
     color: #B3B3B3;
 }
-.donate-input-field{
+
+.donate-input-field {
     margin-bottom: 30px;
 }
-.donate-input-field input{
+
+.donate-input-field input {
     border: none;
     border-bottom: 2px solid #DADADA;
     color: #B3B3B3;
@@ -92,113 +107,164 @@ a{
     padding: 10px 0px;
     text-align: center;
 }
+
 /* donate part end */
 
 /* donate plan part start */
-#donate-plan-part{
+#donate-plan-part {
     text-align: center;
     padding: 0px 150px;
 }
-#donate-plan-part p{
+
+#donate-plan-part p {
     color: #707070;
 }
-.donation-plan{
+
+.donation-plan {
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
-.donation-plan-item{
+
+.donation-plan-item {
     padding: 50px 23px 40px;
     margin: 0px 12px;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     text-align: left;
 }
-.donation-plan-item h1{
+
+.donation-plan-item h1 {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
 }
-.donation-plan-item p{
+
+.donation-plan-item p {
     color: #707070;
 }
-.food-donate{
+
+.food-donate {
     background: rgba(79, 157, 166, 0.1);
 }
-.shelter-donate{
+
+.shelter-donate {
     background: rgba(255, 89, 89, 0.1);
 }
-.education-donate{
+
+.education-donate {
     background: rgba(23, 221, 20, 0.257)
 }
+
 /* donate plan part end */
 
-/* depend part end */
-#depend-part{
+/* depend part start */
+#depend-part {
     display: flex;
     padding: 130px 150px 0px;
 }
-.depend-content{
+
+.depend-content {
     width: 50%;
 }
-.depend-content p{
+
+.depend-content p {
     margin-bottom: 30px;
 }
-.depend-img{
+
+.depend-img {
     width: 50%;
     padding: 0px 50px;
 }
-.depend-img img{
+
+.depend-img img {
     width: 100%;
     border-radius: 5px;
 }
+
 /* depend part end */
 
+/* covid part start */
+#covid-part {
+    background: rgba(0, 0, 0, 0.739);
+    padding: 50px 0px;
+    display: flex;
+    margin-top: 130px;
+}
+
+.covid-img {
+    width: 50%;
+    padding-top: 60px;
+}
+.covid-content{
+    color: white;
+    width: 50%;
+    padding-right: 60px;
+}
+.covid-content h1{
+    color: white;
+}
+.covid-content p{
+    color: #B3B3B3;
+    margin-bottom: 30px;
+}
+/* covid part end */
+
 /* update part start */
-#update-part{
+#update-part {
     text-align: center;
     padding: 130px 310px;
 }
-#update-part p{
+
+#update-part p {
     color: #707070;
 }
-.update-input-box{
+
+.update-input-box {
     background: #fff4d6;
     padding: 75px 180px;
     margin-top: 50px;
+    border-radius: 5px;
 }
-.input-form{
+
+.input-form {
     display: flex;
     justify-content: center;
     border-radius: 5px;
 }
-.email-input{
+
+.email-input {
     background: #D9D9D9;
     border: none;
     padding: 14px 40px 14px 20px;
     color: #AA9F9F;
-    
+
 }
-.subscribe-button{
+
+.subscribe-button {
     padding: 14px 40px;
     border: none;
     background-color: #FF5959;
     color: #FFEEEE;
 }
+
 /* update part end */
 
 /* footer part start */
-#footer-part{
+#footer-part {
     text-align: center;
     padding: 30px 0px;
     background-color: #0B0D17;
     color: #FF5959;
 }
-#footer-part h2{
+
+#footer-part h2 {
     font-family: 'Lobster', cursive;
     font-size: 36px;
 }
-#footer-part p{
+
+#footer-part p {
     font-family: 'Poppins', sans-serif;
     color: #D9DBE1;
 }
+
 /* footer part end */
