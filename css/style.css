@@ -147,3 +147,17 @@ a{
     background-color: #FF5959;
     color: #FFEEEE;
 }
+#footer-part{
+    text-align: center;
+    padding: 30px 0px;
+    background-color: #0B0D17;
+    color: #FF5959;
+}
+#footer-part h2{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+}
+#footer-part p{
+    font-family: 'Poppins', sans-serif;
+    color: #D9DBE1;
+}
