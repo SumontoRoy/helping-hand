@@ -18,6 +18,10 @@ a{
     color: #121212;
     margin-top: 0px;
 }
+.custom-content{
+    width: 700px;
+    margin: auto;
+}
 #banner-part {
     text-align: center;
     background-image: url(../images/donation6.jpg);
@@ -83,11 +87,7 @@ a{
     padding: 0px 150px;
 }
 #donate-plan-part p{
-    color: #B3B3B3;
-}
-.donate-plan-part-content{
-    width: 700px;
-    margin: auto;
+    color: #707070;
 }
 .donation-plan{
     display: flex;
@@ -116,4 +116,34 @@ a{
 }
 .education-donate{
     background: rgba(23, 221, 20, 0.257)
+}
+#update-part{
+    text-align: center;
+    padding: 130px 310px;
+}
+#update-part p{
+    color: #707070;
+}
+.update-input-box{
+    background: #fff4d6;
+    padding: 75px 180px;
+    margin-top: 50px;
+}
+.input-form{
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+.email-input{
+    background: #D9D9D9;
+    border: none;
+    padding: 14px 40px 14px 20px;
+    color: #AA9F9F;
+    
+}
+.subscribe-button{
+    padding: 14px 40px;
+    border: none;
+    background-color: #FF5959;
+    color: #FFEEEE;
 }
