@@ -22,6 +22,7 @@ a{
     width: 700px;
     margin: auto;
 }
+/* banner part start */
 #banner-part {
     text-align: center;
     background-image: url(../images/donation6.jpg);
@@ -50,7 +51,9 @@ a{
     font-weight: 400;
     border-radius: 5px;
 }
+/* banner part end */
 
+/* donate part start */
 #donate-part{
     text-align: center;
     padding: 100px 330px;
@@ -77,11 +80,21 @@ a{
 #donate-part p{
     color: #B3B3B3;
 }
-#donate-part hr{
-    color: #B3B3B3;
+.donate-input-field{
     margin-bottom: 30px;
 }
+.donate-input-field input{
+    border: none;
+    border-bottom: 2px solid #DADADA;
+    color: #B3B3B3;
+    font-size: 18px;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: center;
+}
+/* donate part end */
 
+/* donate plan part start */
 #donate-plan-part{
     text-align: center;
     padding: 0px 150px;
@@ -117,6 +130,30 @@ a{
 .education-donate{
     background: rgba(23, 221, 20, 0.257)
 }
+/* donate plan part end */
+
+/* depend part end */
+#depend-part{
+    display: flex;
+    padding: 130px 150px 0px;
+}
+.depend-content{
+    width: 50%;
+}
+.depend-content p{
+    margin-bottom: 30px;
+}
+.depend-img{
+    width: 50%;
+    padding: 0px 50px;
+}
+.depend-img img{
+    width: 100%;
+    border-radius: 5px;
+}
+/* depend part end */
+
+/* update part start */
 #update-part{
     text-align: center;
     padding: 130px 310px;
@@ -147,6 +184,9 @@ a{
     background-color: #FF5959;
     color: #FFEEEE;
 }
+/* update part end */
+
+/* footer part start */
 #footer-part{
     text-align: center;
     padding: 30px 0px;
@@ -161,3 +201,4 @@ a{
     font-family: 'Poppins', sans-serif;
     color: #D9DBE1;
 }
+/* footer part end */
