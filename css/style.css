@@ -49,7 +49,7 @@ a{
 
 #donate-part{
     text-align: center;
-    padding: 100px;
+    padding: 100px 330px;
 }
 .amount{
     display: flex;
@@ -76,4 +76,44 @@ a{
 #donate-part hr{
     color: #B3B3B3;
     margin-bottom: 30px;
+}
+
+#donate-plan-part{
+    text-align: center;
+    padding: 0px 150px;
+}
+#donate-plan-part p{
+    color: #B3B3B3;
+}
+.donate-plan-part-content{
+    width: 700px;
+    margin: auto;
+}
+.donation-plan{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.donation-plan-item{
+    padding: 50px 23px 40px;
+    margin: 0px 12px;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+}
+.donation-plan-item h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+.donation-plan-item p{
+    color: #707070;
+}
+.food-donate{
+    background: rgba(79, 157, 166, 0.1);
+}
+.shelter-donate{
+    background: rgba(255, 89, 89, 0.1);
+}
+.education-donate{
+    background: rgba(23, 221, 20, 0.257)
 }
